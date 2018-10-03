@@ -1,0 +1,7 @@
+<h1>Cart</h1>
+<ul>
+{{#each model as |brick|}}
+<li>{{brick.color}}  {{brick.size}} for {{brick.price}}</li>
+{{/each}}
+</ul>
+{{outlet}}
